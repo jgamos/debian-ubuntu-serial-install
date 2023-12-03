@@ -125,7 +125,7 @@ An Ubuntu 14.04 installation boot disk may be "/dev/sda" in case that you use US
 First boot after the installation
 -----------------------------------------
 1. Enter `editing mode` of grub boot option with key `e`, when you see grub boot menu on serial console.
-2. Add console options after `ro` in linux boot options
+2. Add console options after `ro` in linux boot options // select Install then click "e" and add ro... before vga
 
 	```
     linux ..... ro console=tty0 console=ttyS0,115200n8
